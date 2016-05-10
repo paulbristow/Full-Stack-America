@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 
 
@@ -540,3 +541,547 @@ body {
 	webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+=======
+@charset "utf-8";
+
+
+
+.bottommargin50{ margin-bottom:50px;}
+
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	background-color: #000;
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 3s; /* Firefox < 16 */
+	-ms-animation: fadein 3s; /* Internet Explorer */
+	-o-animation: fadein 3s; /* Opera < 12.1 */
+	animation: fadein 3s;
+}
+ @keyframes fadein {
+ from {
+opacity: 0;
+}
+ to {
+opacity: 1;
+}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+ from {
+opacity: 0;
+}
+ to {
+opacity: 1;
+}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+ from {
+opacity: 0;
+}
+ to {
+opacity: 1;
+}
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 35px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #f15e2b;
+}
+p {
+	margin: 0 0 25px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse2 {
+	background-image:url(../img/fullstack-logo-small.png); background-repeat:no-repeat;
+	background: url(../img/fullstack-logo-small.png) no-repeat #fff;
+	background-position: center;
+	height: 67px;
+	
+	-webkit-box-shadow: 0px 0px 8px 1px rgba(167,170,172,1);
+-moz-box-shadow: 0px 0px 8px 1px rgba(167,170,172,1);
+box-shadow: 0px 0px 8px 1px rgba(167,170,172,1);
+	
+}
+.navbar navbar-custom navbar-fixed-top {
+}
+.top-nav-collapse2 {
+	background: url(../img/fullstack-logo-small.png) no-repeat #fff; background-size: cover;
+	background-position: center;
+}
+i.fa.fa-bars {
+    color: #a7aaac;
+    font-size: 32px;
+}
+.brand-heading{ 
+	background-image: url(../img/fullstack-logo.png);
+     width: 220px;
+	height: 179px;
+	margin: 0 auto;
+
+
+
+}
+
+
+
+
+
+a {
+	color: #42dca3;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #1d9b6c;
+}
+.light {
+	font-weight: 400;
+}
+.navbar-custom {
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+.container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    height: 72px;
+}
+
+
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 9999;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 43px;
+    background: #f5f5f5;
+    color: #f15e2b;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    font-size: 42px;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(167,170,172,1);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(167,170,172,1);
+    box-shadow: 0px 0px 8px 1px rgba(167,170,172,1);
+}
+#back-to-top:hover {
+	background: #fff;
+	color: #f15e2b;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: -moz-transform;
+	-moz-transition-duration: 1s;
+}
+#back-to-top.show {
+	opacity: 1;
+}
+.navbar-custom .navbar-brand {
+	font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+	outline: 0;
+}
+.navbar-custom .navbar-brand .navbar-toggle {
+	padding: 4px 6px;
+	font-size: 16px;
+	color: #fff;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
+	outline: 0;
+}
+nav.navbar.navbar-custom.navbar-fixed-top>div.container>div.collapse.navbar-collapse.navbar-right.navbar-main-collapse>ul.nav.navbar-nav>li>a.page-scroll {
+	color: #f15e2b;
+}
+.navbar-custom .nav li a {
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+	outline: 0;
+	color: rgba(255,255,255,.8);
+	background-color: transparent;
+}
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
+	outline: 0;
+	background-color: transparent;
+}
+.navbar-custom .nav li.active {
+	outline: 0;
+}
+.navbar-custom .nav li.active a {
+	color: #fff!important;
+}
+.navbar-custom .nav li.active a:hover {
+	color: #fff;
+}
+
+footer{ background: #000;}
+
+
+@media(min-width:768px) {
+.navbar-custom {
+	padding: 20px 0;
+	border-bottom: 0;
+	letter-spacing: 1px;
+	background: 0 0;
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+.navbar-custom.top-nav-collapse {
+	padding: 0;
+	border-bottom: 1px solid rgba(255,255,255,.3);
+	background: #fff;
+}
+}
+.intro {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+	text-align: center;
+	color: #fff;
+	background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+	background-color: #000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.intro .intro-body {
+	display: table-cell;
+	vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+	font-size: 40px;
+}
+.intro .intro-body .intro-text {
+	font-size: 16px;
+	color:#a7aaac;
+}
+
+@media(min-width:768px) {
+.intro {
+	height: 100%;
+	padding: 0;
+}
+.intro .intro-body .brand-heading {
+	font-size: 100px;
+}
+.intro .intro-body .intro-text {
+	font-size: 26px;
+	color: #9ea2a5;
+	text-shadow: 1px 0px 5px #fff;
+}
+}
+.btn-circle {
+	width: 70px;
+	height: 70px;
+	margin-top: 15px;
+	padding: 7px 16px;
+	border: 2px solid #f15e2b;
+	border-radius: 100%!important;
+	font-size: 40px;
+	color: #fff;
+	background: #f15e2b;
+	
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+ .btn-circle:focus {
+	outline: 0;
+	color: #fff;
+	background: #f15e2b;
+	
+}
+
+ul.text-left {
+    font-size: 16px;
+}
+
+section#services {
+	padding-top: 100px;
+    padding-bottom: 150px;
+    background: #a7aaac;
+	
+
+}
+
+section#pricing{      padding-bottom: 100px;
+
+    padding-top: 100px; }
+
+section#about{padding-bottom: 150px; padding-top:100px; }
+
+section#contact {
+    padding-bottom: 150px;
+}
+
+
+
+.white{ color:#fff;}
+
+
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.btn.btn-circle.page-scroll {
+    margin-top: 20px;
+}
+
+
+.btn-circle i.animated {
+	
+	-webkit-animation-name: pulse;
+	-moz-animation-name: pulse;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+}
+.btn-circle:hover i.animated {
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: -moz-transform;
+	-moz-transition-duration: 1s;
+}
+.navbar-nav {
+    margin: 7.5px -15px;
+  
+}
+.navbar-collapse.navbar-right.navbar-main-collapse.collapse.in {
+    background: #fff;}
+
+
+
+
+ @-webkit-keyframes pulse {
+ 0% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 50% {
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 100% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+}
+ @-moz-keyframes pulse {
+ 0% {
+ -moz-transform: scale(1);
+ transform: scale(1);
+}
+ 50% {
+ -moz-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 100% {
+ -moz-transform: scale(1);
+ transform: scale(1);
+}
+}
+
+a {
+	color: #f15e2b;
+}
+a:hover, a:focus {
+	color: #fff;
+}
+.download-section {
+	width: 100%;
+	padding: 50px 0;
+	color: #fff;
+	background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+	background-color: #000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+#map {
+	width: 100%;
+	height: 200px;
+	margin-top: 100px;
+}
+
+
+
+@media(max-width:991px) {
+	
+	h1.brand-heading {
+    margin-top: -21px;
+    margin-bottom: 16px;
+}
+
+.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse2 {
+ 
+    background-position: 5%;
+
+	
+}
+}
+
+@media(min-width:767px) {
+	
+	
+
+	.intro .intro-body .intro-text {
+    font-size: 16px;
+    color: #a7aaac;
+}
+	
+h1.brand-heading {
+       margin-top: -328px;
+    margin-bottom: 16px;
+}
+
+	
+
+.download-section {
+	padding: 100px 0;
+}
+#map {
+	height: 400px;
+	margin-top: 250px;
+}
+}
+.btn {
+	border-radius: 0;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+li.active {
+	background-color: #f15e2b;
+	color: #fff!important;
+	    border-radius: 5px;
+}
+.btn-default {
+	border: 1px solid #fff;
+	color: #737373;
+	background-color: #fff;
+	border-radius: 11px;
+	font-weight: 300;
+	box-shadow: bisque;
+	-webkit-box-shadow: 0px 0px 24px -5px rgba(107,107,107,1);
+	-moz-box-shadow: 0px 0px 24px -5px rgba(107,107,107,1);
+	box-shadow: 0px 0px 24px -5px rgba(107,107,107,1);
+}
+.btn-default:hover, .btn-default:focus {
+	border: 1px solid #f15e2b;
+	outline: 0;
+	color: #fff;
+	background-color: #f15e2b;
+}
+.btn-default.active {
+	color: #333;
+	background-color: transparent;
+	border-color: #adadad;
+	box-shadow: none;
+}
+.btn:active {
+	color: #333;
+	background-color: #fff;
+	border-color: transparent;
+	box-shadow: none;
+}
+.btn-default:active:focus, .btn-default:active:hover {
+	color: #333;
+	background-color: #fff;
+	border-color: transparent;
+	box-shadow: none;
+}
+ul.banner-social-buttons {
+	margin-top: 0;
+}
+
+@media(max-width:1199px) {
+ul.banner-social-buttons {
+	margin-top: 15px;
+}
+}
+
+@media(max-width:767px) {
+ul.banner-social-buttons li {
+	display: block;
+	margin-bottom: 20px;
+	padding: 0;
+}
+ul.banner-social-buttons li:last-child {
+	margin-bottom: 0;
+}
+}
+footer {
+	padding: 50px 0;
+}
+footer p {
+	margin: 0;
+}
+
+::-moz-selection {
+ text-shadow: none;
+ background: #fcfcfc;
+ background: rgba(255,255,255,.2);
+}
+::selection {
+	text-shadow: none;
+	background: #fcfcfc;
+	background: rgba(255,255,255,.2);
+}
+img::selection {
+	background: 0 0;
+}
+ img::-moz-selection {
+ background: 0 0;
+}
+body {
+	webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+>>>>>>> origin/master
