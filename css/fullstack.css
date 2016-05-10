@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	margin: 0 0 25px;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.5;
 }
 
@@ -247,7 +247,7 @@ footer{ background: #000;}
 	font-size: 40px;
 }
 .intro .intro-body .intro-text {
-	font-size: 18px;
+	font-size: 16px;
 	color:#a7aaac;
 }
 
@@ -288,7 +288,7 @@ footer{ background: #000;}
 }
 
 ul.text-left {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 section#services {
@@ -425,7 +425,7 @@ a:hover, a:focus {
 	
 
 	.intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 16px;
     color: #a7aaac;
 }
 	
